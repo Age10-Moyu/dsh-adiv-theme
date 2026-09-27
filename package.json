@@ -1,0 +1,52 @@
+{
+  "name": "dsh-adiv-theme",
+  "version": "1.0.0",
+  "description": "A warm parchment theme for DeepSeek Harness: paper-toned canvas, burnt-orange accent, ring-based depth, and a serif/sans typographic split.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "theme",
+    "skin",
+    "parchment",
+    "warm",
+    "serif",
+    "dark-mode"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Age10-Moyu/dsh-adiv-theme.git"
+  },
+  "homepage": "https://github.com/Age10-Moyu/dsh-adiv-theme#readme",
+  "bugs": {
+    "url": "https://github.com/Age10-Moyu/dsh-adiv-theme/issues"
+  },
+  "author": "Age10-Moyu"
+}
